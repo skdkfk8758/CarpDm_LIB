@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@babel/register": "^7.5.5",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "name": "carpdm_lib",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "scripts": {
+    "test": "mocha ./src/test --require @babel/register",
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skdkfk8758/CarpDm_LIB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skdkfk8758/CarpDm_LIB/issues"
+  },
+  "homepage": "https://github.com/skdkfk8758/CarpDm_LIB#readme"
+}
